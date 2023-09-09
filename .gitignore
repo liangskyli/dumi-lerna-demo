@@ -1,0 +1,17 @@
+node_modules
+/docs-dist
+.dumi/tmp
+.dumi/tmp-test
+.dumi/tmp-production
+.DS_Store
+
+/packages/*/lib
+/packages/*/coverage
+
+# misc
+.DS_Store
+.idea
+/.vscode
+
+/lerna-debug.log
+.pnpm-*.log

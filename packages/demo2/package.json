@@ -1,0 +1,44 @@
+{
+  "name": "@liangskyli/demo2",
+  "version": "0.0.0",
+  "description": "demo2",
+  "keywords": [
+    "demo2"
+  ],
+  "homepage": "https://github.com/liangskyli/dumi-lerna-demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangskyli/dumi-lerna-demo"
+  },
+  "license": "MIT",
+  "author": "liangsky <640634387@qq.com>",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "father build",
+    "build:watch": "father dev",
+    "update:deps": "pnpm update --interactive --latest"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
