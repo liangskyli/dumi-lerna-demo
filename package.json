@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "dumi dev",
     "docs:build": "dumi build",
-    "doctor": "father doctor",
     "preinstall": "npx only-allow pnpm",
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",

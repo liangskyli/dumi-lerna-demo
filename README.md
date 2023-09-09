@@ -1,14 +1,6 @@
-# demo
+# dumi-lerna-demo
 
-dumi-lerna-demo
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
+基于dumi2框架下的lerna pnpm 多包 demo
 
 ## Development
 
@@ -20,16 +12,16 @@ $ pnpm install
 $ pnpm start
 
 # build library source code
-$ pnpm run build
+$ pnpm lerna run build
 
 # build library source code in watch mode
-$ pnpm run build:watch
+$ pnpm lerna run build:watch
 
 # build docs
 $ pnpm run docs:build
 
 # check your project for potential problems
-$ pnpm run doctor
+$ pnpm lerna run doctor
 ```
 
 ## LICENSE

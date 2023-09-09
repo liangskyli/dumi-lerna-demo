@@ -26,6 +26,7 @@
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
+    "doctor": "father doctor",
     "update:deps": "pnpm update --interactive --latest"
   },
   "devDependencies": {
