@@ -1,6 +1,10 @@
 {
   "name": "demo",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangskyli/dumi-lerna-demo"
+  },
   "scripts": {
     "dev": "dumi dev",
     "docs:build": "dumi build",
