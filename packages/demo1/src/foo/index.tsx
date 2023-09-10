@@ -1,4 +1,4 @@
-import React from 'react';
+import './index.less';
 
 type IFooProps = {
   /**
@@ -7,6 +7,10 @@ type IFooProps = {
    */
   title: string;
 };
-const Foo = (props: IFooProps) => <h4>{props.title}</h4>;
+const Foo = (props: IFooProps) => (
+  <div data-testid="foo" className="foo-title">
+    {props.title}
+  </div>
+);
 
 export default Foo;

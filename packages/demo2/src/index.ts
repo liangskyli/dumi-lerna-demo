@@ -1,1 +1,1 @@
-export { default as Foo22 } from './foo';
+export { default as Foo22 } from './foo22';

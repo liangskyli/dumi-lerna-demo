@@ -19,13 +19,13 @@ export default defineConfig({
   },
   themeConfig: {
     name: 'demo',
-    footer: 'Open-source MIT Licensed | Copyright © 2022-present',
+    footer: 'Open-source MIT Licensed | Copyright © 2023-present',
     socialLinks: {
       github: 'https://github.com/liangskyli/dumi-lerna-demo',
     },
   },
   monorepoRedirect: {
-    srcDir: ['libs', 'src'],
+    srcDir: ['src'],
     peerDeps: true,
   },
 });

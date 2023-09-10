@@ -15,7 +15,7 @@ toc: content
 ```jsx
 import { Foo } from '@liangskyli/demo1';
 
-export default () => <Foo title="Hello dumi!" />;
+export default () => <Foo title="Hello dumi!Foo" />;
 ```
 
 ## API

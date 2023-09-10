@@ -26,7 +26,10 @@
   "scripts": {
     "build": "father build",
     "build:watch": "father dev",
+    "coverage": "vitest run --coverage",
     "doctor": "father doctor",
+    "test": "vitest run",
+    "test-u": "vitest -u run",
     "update:deps": "pnpm update --interactive --latest"
   },
   "devDependencies": {

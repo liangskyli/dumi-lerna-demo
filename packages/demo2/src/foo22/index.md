@@ -6,7 +6,7 @@ group:
 toc: content
 ---
 
-# Foo
+# Foo22
 
 说明.
 
@@ -15,11 +15,11 @@ toc: content
 ```jsx
 import { Foo22 } from '@liangskyli/demo2';
 
-export default () => <Foo22 title="Hello dumi!" />;
+export default () => <Foo22 title="Hello dumi!Foo22" />;
 ```
 
 ## API
 
-### Foo
+### Foo22
 
 <API id="Foo22"></API>

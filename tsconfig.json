@@ -4,12 +4,18 @@
     "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "demo": ["./packages/demo"]
+      "demo1": ["./packages/demo1"],
+      "demo2": ["./packages/demo2"]
     }
   },
-  "include": [".dumi/**/*", ".dumirc.ts", "packages/demo1/src/**/*"]
+  "include": [
+    ".dumi/**/*",
+    ".dumirc.ts",
+    "packages/*/vitest.setup.ts",
+    "packages/*/src/**/*"
+  ]
 }
