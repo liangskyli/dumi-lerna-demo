@@ -17,6 +17,8 @@ $ yarn add @liangskyli/demo1
 
 ### 使用
 
-```ts
+```tsx
+import { Foo } from '@liangskyli/demo1';
 
+export default () => <Foo title="Hello dumi!Foo" />;
 ```

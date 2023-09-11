@@ -1,11 +1,7 @@
-# `demo1`
+# `@liangskyli/demo2`
 
 > TODO: description
 
-## Usage
+## 使用
 
-```
-const demo1 = require('demo1');
-
-// TODO: DEMONSTRATE API
-```
+[见文档](https://liangskyli.github.io/dumi-lerna-demo/demo2s)
