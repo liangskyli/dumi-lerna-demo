@@ -3,6 +3,8 @@ import path from 'path';
 
 export default defineConfig({
   outputPath: 'docs-dist',
+  publicPath: '/dumi-lerna-demo/',
+  base: '/dumi-lerna-demo/',
   title: 'dumi-lerna-demo',
   apiParser: {},
   resolve: {
