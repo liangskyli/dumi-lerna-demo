@@ -2,6 +2,8 @@
 
 基于dumi2框架下的lerna pnpm 多包 demo
 
+部署例子：https://liangskyli.github.io/dumi-lerna-demo/
+
 ## Development
 
 ```bash
