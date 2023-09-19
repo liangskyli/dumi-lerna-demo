@@ -8,10 +8,5 @@
       "demo2": ["./packages/demo2"]
     }
   },
-  "include": [
-    ".dumi/**/*",
-    ".dumirc.ts",
-    "packages/*/vitest.setup.ts",
-    "packages/*/src/**/*"
-  ]
+  "include": [".dumirc.ts", "packages/*/vitest.setup.ts", "packages/*/src/**/*"]
 }
