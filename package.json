@@ -6,6 +6,7 @@
     "url": "https://github.com/liangskyli/dumi-lerna-demo"
   },
   "scripts": {
+    "build": "lerna run build",
     "dev": "dumi dev",
     "docs:build": "dumi build",
     "preinstall": "npx only-allow pnpm",
