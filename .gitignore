@@ -1,8 +1,9 @@
 node_modules
 /docs-dist
-.dumi/tmp
-.dumi/tmp-test
-.dumi/tmp-production
+/.dumi/tmp
+/.dumi/tmp-test
+/.dumi/tmp-production
+/.dumi/tsconfig.json
 .DS_Store
 
 /packages/*/lib
