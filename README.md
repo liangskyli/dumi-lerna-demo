@@ -14,7 +14,7 @@ $ pnpm install
 $ pnpm start
 
 # build library source code
-$ pnpm lerna run build
+$ pnpm build
 
 # build library source code in watch mode
 $ pnpm lerna run build:watch
